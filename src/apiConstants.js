@@ -1,0 +1,9 @@
+const ApiConstants = {
+    API_LOGIN_LOAD: "API_LOGIN_LOAD",
+    API_LOGIN_SUCCESS: "API_LOGIN_SUCCESS",
+
+    API_REGISTER_LOAD: "API_REGISTER_LOAD",
+    API_REGISTER_SUCCESS: "API_REGISTER_SUCCESS",
+}
+
+export default ApiConstants;

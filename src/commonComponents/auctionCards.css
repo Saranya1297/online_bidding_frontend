@@ -1,0 +1,67 @@
+.auction_items_parent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 1px solid #0000000D;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.auction_child {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.min_current_bid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.min_current_txt {
+    color: #191D23;
+    font-weight: 600;
+}
+
+.font_props_auction {
+    font-family: "Poppins", sans-serif !important;;
+}
+
+.live_auc {
+    background-color: #21A67A;
+    border-radius: 6px;
+    padding: 4px 12px;
+    width: 38%;
+    color: #FFFFFF;
+}
+
+.auc_prod_txt {
+    color: #191D23;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.bid_now {
+    background: linear-gradient(to right, #DB2721, #5AD7FE);
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.bid_now:hover {
+    background: linear-gradient(to right, #DB2721, #5AD7FE) !important;
+    width: 100%;
+    color: #FFFFFF !important;
+}
+
+.auction_card {
+    margin: 0% 0% 0% 4%;
+    row-gap: 30px;
+}
+
+.auction_img {
+    width: 100%;
+}

@@ -1,0 +1,45 @@
+.log_suc_middle {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.victory_img {
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.victory_img>img {
+    width: 54%;
+    height: 54%;
+}
+
+.footer_suc_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.login_now {
+    color: #FFFFFF;
+    background: linear-gradient(to right, #1D4ED8, #5AD7FE);
+    border: 1px solid #5AD7FE;
+    border-radius: 4px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.login_now:hover {
+    color: #FFFFFF !important;
+    background: linear-gradient(to right, #1D4ED8, #5AD7FE) !important;
+    border: 1px solid #5AD7FE !important;
+    border-radius: 4px !important;
+    padding: 15px 20px !important;
+    cursor: pointer;
+}

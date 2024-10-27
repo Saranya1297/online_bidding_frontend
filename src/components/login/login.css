@@ -1,0 +1,91 @@
+.login_component {
+    margin: 0% 0%;
+}
+
+.header_logo_part {
+    display: flex;
+    align-items: center;
+    margin: 1% 0% 2% 2%;
+    border-bottom: 1px solid #E7EAEE;
+    box-shadow: 0px 1px 5px #E7EAEE;
+    padding: 1% 5%;
+    margin: 0% 0% 1%;
+}
+
+.vector {
+    width: 4%;
+}
+
+.g_auction {
+    width: 15%;
+}
+
+.form_item_form {
+    margin-bottom: 5px;
+}
+
+.form_item_form > .ant-row{
+    display: block !important;
+}
+
+.form_item_form > .ant-form-item-row > .ant-form-item-label {
+    text-align: left !important;
+}
+
+.submit_btn {
+    width: 100%;
+    margin: 2% 0% 0%;
+    background: linear-gradient(to right, #1D4ED8 0%, #5AD7FE 189%);
+}
+
+.submit_btn:hover {
+    width: 100%;
+    margin: 2% 0% 0%;
+    background: linear-gradient(to right, #1D4ED8 0%, #5AD7FE 189%) !important;
+}
+
+.img_shown_part_login {
+    width: 670px;
+    height: 409px;
+    display: flex;
+    align-items: center;
+}
+
+.img_shown_part_login > img {
+    width: 100%;
+    height: 100%;
+}
+
+.font_props {
+    font-family: "Poppins", sans-serif !important;;
+}
+
+.sign_up_txt,.font_props  {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.subtitle {
+    color: #64748B;
+    padding: 2% 0% 3%;
+    font-weight: 400;
+    /* font-family: poppins; */
+    font-family: "Poppins"
+}
+
+.want_auc_rules {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.auc_rules {
+    font-weight: 600;
+    color: #1D4ED8;  
+    cursor: pointer;  
+}
+
+.sign_up_part_login {
+    padding: 0% 0% 0% 6%;
+    margin: 18% 0% 0%;
+}

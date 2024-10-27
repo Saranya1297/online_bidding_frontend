@@ -1,0 +1,181 @@
+.font_props_head {
+    font-family: "Poppins", sans-serif !important;;
+}
+
+.header_logo_part_home {
+    display: flex;
+    align-items: center;    
+    gap: 5px;
+}
+
+.vector_h {
+    width: 11%;
+}
+
+.g_auction_h {
+    width: 33%;
+}
+
+.home_header{
+    margin: 1% 0% 2% 2%;
+    border-bottom: 1px solid #E7EAEE;
+    box-shadow: 0px 1px 5px #E7EAEE;
+    padding: 1% 5%;
+    margin: 0% 0% 1%;
+    /* display: flex; */
+    align-items: center;   
+    background-color: #FFE5F1;
+}
+
+.row-home {
+    align-items: center;
+}
+
+.center_header_menu {
+    border-bottom: 0;
+    background-color: transparent !important;
+}
+
+.menu_items {
+    display: flex;
+    /* gap: 5px; */
+    border-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+} 
+
+.menu_items:hover {
+    border-bottom: 0 !important;
+}
+
+.menu_items > .ant-menu-title-content {
+    gap: 15px;
+}
+
+.menu_items:hover::after{
+    border: 0px !important;
+    border-bottom-color: transparent !important;
+}
+
+.lang_select_container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.select_dropdown {
+    width: 65%;
+}
+
+.select_dropdown > .ant-select-selector {    
+    border: 0 !important;
+    background-color: transparent !important;
+}
+
+.select_dropdown > .ant-select-selector>.ant-select-selection-item {
+    font-weight: 600 !important;
+}
+
+.profile_select {
+    display: flex;
+    align-items: center;
+}
+
+.dp_details {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #F4EBFF;
+    border-radius: 50%;
+    background: #F4EBFF;
+}
+
+.dp_details_child {
+    width: 94%;
+    height: 94%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dp_details_child > img {
+    border-radius: 50%;
+}
+
+.dp_details_child_drop {
+    width: 62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dp_details_child_drop > img {
+    /* width: 100%;
+    height: 100%; */
+    border-radius: 50%;
+}
+
+.item_one {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile_items {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.auctions_content_part {
+    height: 385px;
+    overflow-y: scroll;
+}
+
+.auctions_content_part::-webkit-scrollbar {
+    display: none;
+}
+
+.olivia_text {
+    font-family: "Poppins";
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+    padding: 20px 2em;
+}
+
+.login_get_started {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.home_log_txt {
+    color: #1D4ED8;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.home_started {
+    color: #FFFFFF;
+    background: linear-gradient(to right, #1D4ED8, #5AD7FE);
+    border: 1px solid #5AD7FE;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.auctions_content_part_token {
+    height: 495px;
+    overflow-y: scroll;
+}
+
+.auctions_content_part_token::-webkit-scrollbar {
+    display: none;
+}
+
